@@ -5,7 +5,7 @@ import fs  from 'fs';
 
 describe('our first test',()=>{
     it('should pass',()=>{
-        expect(true).to.equal(true)
+        expect(true).to.equal(false)
     })
 })
 
