@@ -12,7 +12,7 @@
     "lint:watch": "npm run lint -- --watch",
     "share": "npm-run-all -p open:src localtunnel",
     "test": "mocha --reporter progress buildScript/testSetup.js \"src/**/*.test.js\"",
-    "test:watch":"npm run test -- --watch"
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [
     "webpack",
@@ -46,7 +46,8 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-middleware": "^3.7.2",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "whatwg-fetch": "^3.0.0"
   },
   "dependencies": {
     "express": "^4.17.1"
