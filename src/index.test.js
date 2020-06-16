@@ -3,11 +3,11 @@ import {expect} from 'chai';
 // import fs  from 'fs';
 
 
-describe('our first test',()=>{
-    it('should pass',()=>{
-        expect(true).to.equal(true)
-    })
-})
+// describe('our first test',()=>{
+//     it('should pass',()=>{
+//         expect(true).to.equal(true)
+//     })
+// })
 
 // describe('index.html', () => { // eslint-disable-line
 //     it('should say hello' , (done) => { // eslint-disable-line
